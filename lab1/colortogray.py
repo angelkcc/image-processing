@@ -12,5 +12,5 @@ imgBlue=img[:,:,0]
 imgGreen=img[:,:,1]
 imgRed=img[:,:,2]
 new_img=np.hstack((imgBlue,imgGreen,imgRed))
-cv2.imshow("window",new_img)
+cv2.imshow("window(AngelKhatri-04)",new_img)
 cv2.waitKey(0)

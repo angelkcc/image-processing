@@ -18,10 +18,12 @@ gamma_corrected_image=np.uint8(gamma_corrected_image*255)
 
 #display the results
 plt.imshow(image)
+plt.title("Original Image(AngelKhatri-04)")
 plt.show() #this displays the original image
 
 #display both images side by side for comparison
 plt.imshow(gamma_corrected_image)
+plt.title("Gamma Corrected Image(AngelKhatri-04)")
 plt.show() #this displays the gamma corrected image
 
 
